@@ -1,0 +1,46 @@
+[1.733s] Invoking command in '/home/rakhi/ros2_ws/build/simple_robot_description': PYTHONPATH=/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rakhi/ros2_ws/build/simple_robot_description/build
+[2.873s] running develop
+[3.614s] Removing /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple-robot-description.egg-link (link to .)
+[3.718s] Invoked command in '/home/rakhi/ros2_ws/build/simple_robot_description' returned '0': PYTHONPATH=/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rakhi/ros2_ws/build/simple_robot_description/build
+[3.719s] Invoking command in '/home/rakhi/ros2_ws/line_following_robot_ros2/src/simple_robot_description': PYTHONPATH=/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/simple_robot_description build --build-base /home/rakhi/ros2_ws/build/simple_robot_description/build install --record /home/rakhi/ros2_ws/build/simple_robot_description/install.log --single-version-externally-managed install_data --force
+[4.844s] running egg_info
+[4.851s] writing ../../../build/simple_robot_description/simple_robot_description.egg-info/PKG-INFO
+[4.854s] writing dependency_links to ../../../build/simple_robot_description/simple_robot_description.egg-info/dependency_links.txt
+[4.857s] writing entry points to ../../../build/simple_robot_description/simple_robot_description.egg-info/entry_points.txt
+[4.857s] writing requirements to ../../../build/simple_robot_description/simple_robot_description.egg-info/requires.txt
+[4.858s] writing top-level names to ../../../build/simple_robot_description/simple_robot_description.egg-info/top_level.txt
+[4.883s] reading manifest file '../../../build/simple_robot_description/simple_robot_description.egg-info/SOURCES.txt'
+[4.892s] writing manifest file '../../../build/simple_robot_description/simple_robot_description.egg-info/SOURCES.txt'
+[4.893s] running build
+[4.893s] running build_py
+[4.897s] creating /home/rakhi/ros2_ws/build/simple_robot_description/build
+[4.903s] creating /home/rakhi/ros2_ws/build/simple_robot_description/build/lib
+[4.903s] creating /home/rakhi/ros2_ws/build/simple_robot_description/build/lib/simple_robot_description
+[4.903s] copying simple_robot_description/joint_commander.py -> /home/rakhi/ros2_ws/build/simple_robot_description/build/lib/simple_robot_description
+[4.903s] copying simple_robot_description/__init__.py -> /home/rakhi/ros2_ws/build/simple_robot_description/build/lib/simple_robot_description
+[4.903s] running install
+[4.903s] running install_lib
+[4.903s] creating /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description
+[4.904s] copying /home/rakhi/ros2_ws/build/simple_robot_description/build/lib/simple_robot_description/joint_commander.py -> /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description
+[4.905s] copying /home/rakhi/ros2_ws/build/simple_robot_description/build/lib/simple_robot_description/__init__.py -> /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description
+[4.905s] byte-compiling /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description/joint_commander.py to joint_commander.cpython-310.pyc
+[4.911s] byte-compiling /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description/__init__.py to __init__.cpython-310.pyc
+[4.912s] running install_data
+[4.913s] copying resource/simple_robot_description -> /home/rakhi/ros2_ws/install/simple_robot_description/share/ament_index/resource_index/packages
+[4.999s] copying package.xml -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description
+[5.028s] copying launch/rviz.launch.py -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/launch
+[5.033s] copying launch/gazebo.launch.py -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/launch
+[5.033s] copying models/arm_1dof/macros.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models
+[5.037s] copying models/arm_1dof/materials.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models
+[5.051s] copying models/arm_1dof/arm_1dof.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models
+[5.058s] copying models/arm_1dof/joints.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models
+[5.122s] copying models/track/model.sdf -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models
+[5.122s] copying rviz/arm.rviz -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/rviz
+[5.123s] copying config/arm_1dof.yaml -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/config
+[5.123s] copying worlds/empty.world -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/worlds
+[5.123s] running install_egg_info
+[5.132s] Copying ../../../build/simple_robot_description/simple_robot_description.egg-info to /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description-0.0.0-py3.10.egg-info
+[5.132s] running install_scripts
+[5.230s] Installing joint_commander script to /home/rakhi/ros2_ws/install/simple_robot_description/lib/simple_robot_description
+[5.232s] writing list of installed files to '/home/rakhi/ros2_ws/build/simple_robot_description/install.log'
+[5.344s] Invoked command in '/home/rakhi/ros2_ws/line_following_robot_ros2/src/simple_robot_description' returned '0': PYTHONPATH=/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/simple_robot_description build --build-base /home/rakhi/ros2_ws/build/simple_robot_description/build install --record /home/rakhi/ros2_ws/build/simple_robot_description/install.log --single-version-externally-managed install_data --force

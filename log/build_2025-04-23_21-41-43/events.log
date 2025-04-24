@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.014515] (simple_robot_description) JobQueued: {'identifier': 'simple_robot_description', 'dependencies': OrderedDict()}
+[0.014657] (simple_robot_description) JobStarted: {'identifier': 'simple_robot_description'}
+[0.090405] (-) TimerEvent: {}
+[0.551478] (-) TimerEvent: {}
+[0.689785] (-) TimerEvent: {}
+[0.794384] (-) TimerEvent: {}
+[0.897089] (-) TimerEvent: {}
+[1.028042] (-) TimerEvent: {}
+[1.128483] (-) TimerEvent: {}
+[1.229301] (-) TimerEvent: {}
+[1.329798] (-) TimerEvent: {}
+[1.430670] (-) TimerEvent: {}
+[1.531318] (-) TimerEvent: {}
+[1.632061] (-) TimerEvent: {}
+[1.732609] (-) TimerEvent: {}
+[1.833306] (-) TimerEvent: {}
+[1.935311] (-) TimerEvent: {}
+[2.036446] (-) TimerEvent: {}
+[2.057948] (simple_robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/simple_robot_description', 'build', '--build-base', '/home/rakhi/ros2_ws/build/simple_robot_description/build', 'install', '--record', '/home/rakhi/ros2_ws/build/simple_robot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rakhi/ros2_ws/line_following_robot_ros2/src/simple_robot_description', 'env': {'LANGUAGE': 'en_IN:en', 'USER': 'rakhi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rakhi', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3214', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rakhi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rakhi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakhi', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/rakhi/project/line_following_robot_ros2/src/simple_robot_description/models:/home/rakhi/ros2_ws/line_following_robot_ros2/src/simple_robot_description/models:/home/rakhi/ros2_ws/src/line_following_robot_ros2/src/simple_robot_description/models::/home/rakhi/ros2_ws/src/ros2-line-follower/follower/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rakhi/.pyenv/shims:/home/rakhi/.pyenv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakhi:@/tmp/.ICE-unix/2517,unix/rakhi:/tmp/.ICE-unix/2517', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0bc4ebf3_afe3_4677_beb4_bacdda20488b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UZFF52', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/rakhi/ros2_ws/install/simple_robot_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakhi/ros2_ws/build/simple_robot_description', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/rakhi/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.137304] (-) TimerEvent: {}
+[2.477543] (-) TimerEvent: {}
+[2.485032] (simple_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.487366] (simple_robot_description) StdoutLine: {'line': b'writing ../../../build/simple_robot_description/simple_robot_description.egg-info/PKG-INFO\n'}
+[2.490881] (simple_robot_description) StdoutLine: {'line': b'writing dependency_links to ../../../build/simple_robot_description/simple_robot_description.egg-info/dependency_links.txt\n'}
+[2.491496] (simple_robot_description) StdoutLine: {'line': b'writing entry points to ../../../build/simple_robot_description/simple_robot_description.egg-info/entry_points.txt\n'}
+[2.497720] (simple_robot_description) StdoutLine: {'line': b'writing requirements to ../../../build/simple_robot_description/simple_robot_description.egg-info/requires.txt\n'}
+[2.507618] (simple_robot_description) StdoutLine: {'line': b'writing top-level names to ../../../build/simple_robot_description/simple_robot_description.egg-info/top_level.txt\n'}
+[2.526296] (simple_robot_description) StdoutLine: {'line': b"reading manifest file '../../../build/simple_robot_description/simple_robot_description.egg-info/SOURCES.txt'\n"}
+[2.528281] (simple_robot_description) StdoutLine: {'line': b"writing manifest file '../../../build/simple_robot_description/simple_robot_description.egg-info/SOURCES.txt'\n"}
+[2.528696] (simple_robot_description) StdoutLine: {'line': b'running build\n'}
+[2.529385] (simple_robot_description) StdoutLine: {'line': b'running build_py\n'}
+[2.533967] (simple_robot_description) StdoutLine: {'line': b'copying simple_robot_description/joint_commander.py -> /home/rakhi/ros2_ws/build/simple_robot_description/build/lib/simple_robot_description\n'}
+[2.537916] (simple_robot_description) StdoutLine: {'line': b'running install\n'}
+[2.540834] (simple_robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.548164] (simple_robot_description) StdoutLine: {'line': b'copying /home/rakhi/ros2_ws/build/simple_robot_description/build/lib/simple_robot_description/joint_commander.py -> /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description\n'}
+[2.565758] (simple_robot_description) StdoutLine: {'line': b'byte-compiling /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description/joint_commander.py to joint_commander.cpython-310.pyc\n'}
+[2.573436] (simple_robot_description) StdoutLine: {'line': b'running install_data\n'}
+[2.574729] (simple_robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.578372] (simple_robot_description) StdoutLine: {'line': b"removing '/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.578617] (-) TimerEvent: {}
+[2.579743] (simple_robot_description) StdoutLine: {'line': b'Copying ../../../build/simple_robot_description/simple_robot_description.egg-info to /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple_robot_description-0.0.0-py3.10.egg-info\n'}
+[2.584128] (simple_robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.644888] (simple_robot_description) StdoutLine: {'line': b'Installing joint_commander script to /home/rakhi/ros2_ws/install/simple_robot_description/lib/simple_robot_description\n'}
+[2.646767] (simple_robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/rakhi/ros2_ws/build/simple_robot_description/install.log'\n"}
+[2.678841] (-) TimerEvent: {}
+[2.727887] (simple_robot_description) CommandEnded: {'returncode': 0}
+[2.765686] (simple_robot_description) JobEnded: {'identifier': 'simple_robot_description', 'rc': 0}
+[2.766808] (-) EventReactorShutdown: {}

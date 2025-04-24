@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.013046] (simple_robot_description) JobQueued: {'identifier': 'simple_robot_description', 'dependencies': OrderedDict()}
+[0.013139] (simple_robot_description) JobStarted: {'identifier': 'simple_robot_description'}
+[0.099311] (-) TimerEvent: {}
+[0.417401] (-) TimerEvent: {}
+[0.519000] (-) TimerEvent: {}
+[0.619585] (-) TimerEvent: {}
+[0.779440] (-) TimerEvent: {}
+[0.983752] (-) TimerEvent: {}
+[1.087279] (-) TimerEvent: {}
+[1.232417] (-) TimerEvent: {}
+[1.338941] (-) TimerEvent: {}
+[1.443707] (-) TimerEvent: {}
+[1.552839] (-) TimerEvent: {}
+[1.653745] (-) TimerEvent: {}
+[1.756582] (-) TimerEvent: {}
+[1.860664] (-) TimerEvent: {}
+[1.967231] (-) TimerEvent: {}
+[2.068998] (-) TimerEvent: {}
+[2.171344] (-) TimerEvent: {}
+[2.272155] (-) TimerEvent: {}
+[2.381052] (-) TimerEvent: {}
+[2.483297] (-) TimerEvent: {}
+[2.585234] (-) TimerEvent: {}
+[2.686113] (-) TimerEvent: {}
+[2.787140] (-) TimerEvent: {}
+[2.889693] (-) TimerEvent: {}
+[2.991552] (-) TimerEvent: {}
+[3.096390] (-) TimerEvent: {}
+[3.197368] (-) TimerEvent: {}
+[3.298132] (-) TimerEvent: {}
+[3.395247] (simple_robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rakhi/ros2_ws/build/simple_robot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rakhi/ros2_ws/build/simple_robot_description', 'env': {'LANGUAGE': 'en_IN:en', 'USER': 'rakhi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rakhi', 'OLDPWD': '/home/rakhi/project', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2753', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rakhi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rakhi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakhi', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/rakhi/ros2_ws/src/line_following_robot_ros2/src/simple_robot_description/models:/home/rakhi/ros2_ws/src/line_following_robot_ros2/src/simple_robot_description/models::/home/rakhi/ros2_ws/src/ros2-line-follower/follower/models:/home/rakhi/ros2_ws/src/ros2-line-follower/follower/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rakhi/.pyenv/shims:/home/rakhi/.pyenv/bin:/home/rakhi/.pyenv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakhi:@/tmp/.ICE-unix/2515,unix/rakhi:/tmp/.ICE-unix/2515', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2db58f7a_1dac_4e85_91d5_e4afd8bacd2e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PQ5342', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/rakhi/ros2_ws/install/simple_robot_description:/home/rakhi/ros2_ws/install/line_follower_robot:/home/rakhi/ros2_ws/install/follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakhi/ros2_ws/build/simple_robot_description', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/rakhi/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:/home/rakhi/ros2_ws/build/simple_robot_description:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:/home/rakhi/ros2_ws/install/line_follower_robot/local/lib/python3.10/dist-packages:/home/rakhi/ros2_ws/build/follower:/home/rakhi/ros2_ws/install/follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/rakhi/ros2_ws/install/line_follower_robot'}, 'shell': False}
+[3.418874] (-) TimerEvent: {}
+[3.519536] (-) TimerEvent: {}
+[3.620442] (-) TimerEvent: {}
+[3.721193] (-) TimerEvent: {}
+[3.822034] (-) TimerEvent: {}
+[3.922922] (-) TimerEvent: {}
+[4.023440] (-) TimerEvent: {}
+[4.124518] (-) TimerEvent: {}
+[4.225191] (-) TimerEvent: {}
+[4.336060] (-) TimerEvent: {}
+[4.438423] (-) TimerEvent: {}
+[4.540465] (-) TimerEvent: {}
+[4.566378] (simple_robot_description) StdoutLine: {'line': b'running develop\n'}
+[4.640843] (-) TimerEvent: {}
+[4.741872] (-) TimerEvent: {}
+[4.846934] (-) TimerEvent: {}
+[4.948874] (-) TimerEvent: {}
+[5.050021] (-) TimerEvent: {}
+[5.150969] (-) TimerEvent: {}
+[5.252219] (-) TimerEvent: {}
+[5.253169] (simple_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.253394] (simple_robot_description) StdoutLine: {'line': b'writing simple_robot_description.egg-info/PKG-INFO\n'}
+[5.255048] (simple_robot_description) StdoutLine: {'line': b'writing dependency_links to simple_robot_description.egg-info/dependency_links.txt\n'}
+[5.256498] (simple_robot_description) StdoutLine: {'line': b'writing entry points to simple_robot_description.egg-info/entry_points.txt\n'}
+[5.256612] (simple_robot_description) StdoutLine: {'line': b'writing requirements to simple_robot_description.egg-info/requires.txt\n'}
+[5.258236] (simple_robot_description) StdoutLine: {'line': b'writing top-level names to simple_robot_description.egg-info/top_level.txt\n'}
+[5.265091] (simple_robot_description) StdoutLine: {'line': b"reading manifest file 'simple_robot_description.egg-info/SOURCES.txt'\n"}
+[5.266830] (simple_robot_description) StdoutLine: {'line': b"writing manifest file 'simple_robot_description.egg-info/SOURCES.txt'\n"}
+[5.270972] (simple_robot_description) StdoutLine: {'line': b'running build_ext\n'}
+[5.271424] (simple_robot_description) StdoutLine: {'line': b'Creating /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple-robot-description.egg-link (link to .)\n'}
+[5.276614] (simple_robot_description) StdoutLine: {'line': b'Installing joint_commander script to /home/rakhi/ros2_ws/install/simple_robot_description/lib/simple_robot_description\n'}
+[5.276930] (simple_robot_description) StdoutLine: {'line': b'\n'}
+[5.277030] (simple_robot_description) StdoutLine: {'line': b'Installed /home/rakhi/ros2_ws/build/simple_robot_description\n'}
+[5.278485] (simple_robot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[5.352917] (-) TimerEvent: {}
+[5.447676] (simple_robot_description) CommandEnded: {'returncode': 0}
+[5.453355] (-) TimerEvent: {}
+[5.554216] (simple_robot_description) JobEnded: {'identifier': 'simple_robot_description', 'rc': 0}
+[5.557791] (-) TimerEvent: {}
+[5.558081] (-) EventReactorShutdown: {}

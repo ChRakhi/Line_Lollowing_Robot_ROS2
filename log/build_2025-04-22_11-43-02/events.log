@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.001537] (simple_robot_description) JobQueued: {'identifier': 'simple_robot_description', 'dependencies': OrderedDict()}
+[0.004561] (simple_robot_description) JobStarted: {'identifier': 'simple_robot_description'}
+[0.114153] (-) TimerEvent: {}
+[0.412226] (-) TimerEvent: {}
+[0.515602] (-) TimerEvent: {}
+[0.701181] (-) TimerEvent: {}
+[0.908820] (-) TimerEvent: {}
+[1.114395] (-) TimerEvent: {}
+[1.244265] (-) TimerEvent: {}
+[1.254682] (simple_robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/rakhi/ros2_ws/build/simple_robot_description/build', '--no-deps', 'symlink_data'], 'cwd': '/home/rakhi/ros2_ws/build/simple_robot_description', 'env': {'LANGUAGE': 'en_IN:en', 'USER': 'rakhi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rakhi', 'OLDPWD': '/home/rakhi/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2753', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rakhi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rakhi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rakhi', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/rakhi/ros2_ws/src/ros2-line-follower/follower/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rakhi/.pyenv/shims:/home/rakhi/.pyenv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rakhi:@/tmp/.ICE-unix/2515,unix/rakhi:/tmp/.ICE-unix/2515', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2db58f7a_1dac_4e85_91d5_e4afd8bacd2e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PQ5342', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/rakhi/ros2_ws/install/line_follower_robot:/home/rakhi/ros2_ws/install/follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rakhi/ros2_ws/build/simple_robot_description', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/rakhi/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:/home/rakhi/ros2_ws/install/line_follower_robot/local/lib/python3.10/dist-packages:/home/rakhi/ros2_ws/build/follower:/home/rakhi/ros2_ws/install/follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/rakhi/ros2_ws/install/line_follower_robot'}, 'shell': False}
+[1.415046] (-) TimerEvent: {}
+[1.707865] (-) TimerEvent: {}
+[1.747051] (simple_robot_description) StdoutLine: {'line': b'running develop\n'}
+[2.007704] (-) TimerEvent: {}
+[2.012988] (simple_robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.013298] (simple_robot_description) StdoutLine: {'line': b'creating simple_robot_description.egg-info\n'}
+[2.013597] (simple_robot_description) StdoutLine: {'line': b'writing simple_robot_description.egg-info/PKG-INFO\n'}
+[2.013778] (simple_robot_description) StdoutLine: {'line': b'writing dependency_links to simple_robot_description.egg-info/dependency_links.txt\n'}
+[2.013884] (simple_robot_description) StdoutLine: {'line': b'writing entry points to simple_robot_description.egg-info/entry_points.txt\n'}
+[2.013983] (simple_robot_description) StdoutLine: {'line': b'writing requirements to simple_robot_description.egg-info/requires.txt\n'}
+[2.014080] (simple_robot_description) StdoutLine: {'line': b'writing top-level names to simple_robot_description.egg-info/top_level.txt\n'}
+[2.014181] (simple_robot_description) StdoutLine: {'line': b"writing manifest file 'simple_robot_description.egg-info/SOURCES.txt'\n"}
+[2.018511] (simple_robot_description) StdoutLine: {'line': b"reading manifest file 'simple_robot_description.egg-info/SOURCES.txt'\n"}
+[2.029635] (simple_robot_description) StdoutLine: {'line': b"writing manifest file 'simple_robot_description.egg-info/SOURCES.txt'\n"}
+[2.045516] (simple_robot_description) StdoutLine: {'line': b'running build_ext\n'}
+[2.046965] (simple_robot_description) StdoutLine: {'line': b'Creating /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple-robot-description.egg-link (link to .)\n'}
+[2.068951] (simple_robot_description) StdoutLine: {'line': b'Installing joint_commander script to /home/rakhi/ros2_ws/install/simple_robot_description/lib/simple_robot_description\n'}
+[2.079988] (simple_robot_description) StdoutLine: {'line': b'\n'}
+[2.080437] (simple_robot_description) StdoutLine: {'line': b'Installed /home/rakhi/ros2_ws/build/simple_robot_description\n'}
+[2.080609] (simple_robot_description) StdoutLine: {'line': b'running symlink_data\n'}
+[2.080952] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/ament_index\n'}
+[2.081463] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/ament_index/resource_index\n'}
+[2.081572] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/ament_index/resource_index/packages\n'}
+[2.081662] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/resource/simple_robot_description -> /home/rakhi/ros2_ws/install/simple_robot_description/share/ament_index/resource_index/packages\n'}
+[2.081840] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/package.xml -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description\n'}
+[2.081944] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/launch\n'}
+[2.082032] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/launch/rviz.launch.py -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/launch\n'}
+[2.082246] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/launch/gazebo.launch.py -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/launch\n'}
+[2.082365] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models\n'}
+[2.082459] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/models/arm_1dof/macros.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models\n'}
+[2.082646] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/models/arm_1dof/materials.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models\n'}
+[2.082763] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/models/arm_1dof/arm_1dof.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models\n'}
+[2.082853] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/models/arm_1dof/joints.xacro -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models\n'}
+[2.083184] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/models/track/model.sdf -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/models\n'}
+[2.083313] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/rviz\n'}
+[2.083526] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/rviz/arm.rviz -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/rviz\n'}
+[2.083638] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/config\n'}
+[2.083858] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/config/arm_1dof.yaml -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/config\n'}
+[2.083971] (simple_robot_description) StdoutLine: {'line': b'creating /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/worlds\n'}
+[2.084064] (simple_robot_description) StdoutLine: {'line': b'symbolically linking /home/rakhi/ros2_ws/build/simple_robot_description/worlds/empty.world -> /home/rakhi/ros2_ws/install/simple_robot_description/share/simple_robot_description/worlds\n'}
+[2.108954] (-) TimerEvent: {}
+[2.247484] (-) TimerEvent: {}
+[2.256982] (simple_robot_description) CommandEnded: {'returncode': 0}
+[2.306157] (simple_robot_description) JobEnded: {'identifier': 'simple_robot_description', 'rc': 0}
+[2.309382] (-) EventReactorShutdown: {}

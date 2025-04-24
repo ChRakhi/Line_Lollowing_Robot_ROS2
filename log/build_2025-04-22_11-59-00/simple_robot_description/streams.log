@@ -1,0 +1,17 @@
+[3.405s] Invoking command in '/home/rakhi/ros2_ws/build/simple_robot_description': PYTHONPATH=/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rakhi/ros2_ws/build/simple_robot_description/build --no-deps symlink_data
+[4.553s] running develop
+[5.240s] running egg_info
+[5.240s] writing simple_robot_description.egg-info/PKG-INFO
+[5.243s] writing dependency_links to simple_robot_description.egg-info/dependency_links.txt
+[5.243s] writing entry points to simple_robot_description.egg-info/entry_points.txt
+[5.243s] writing requirements to simple_robot_description.egg-info/requires.txt
+[5.245s] writing top-level names to simple_robot_description.egg-info/top_level.txt
+[5.252s] reading manifest file 'simple_robot_description.egg-info/SOURCES.txt'
+[5.254s] writing manifest file 'simple_robot_description.egg-info/SOURCES.txt'
+[5.258s] running build_ext
+[5.258s] Creating /home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages/simple-robot-description.egg-link (link to .)
+[5.264s] Installing joint_commander script to /home/rakhi/ros2_ws/install/simple_robot_description/lib/simple_robot_description
+[5.264s] 
+[5.264s] Installed /home/rakhi/ros2_ws/build/simple_robot_description
+[5.266s] running symlink_data
+[5.435s] Invoked command in '/home/rakhi/ros2_ws/build/simple_robot_description' returned '0': PYTHONPATH=/home/rakhi/ros2_ws/build/simple_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rakhi/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rakhi/ros2_ws/build/simple_robot_description/build --no-deps symlink_data

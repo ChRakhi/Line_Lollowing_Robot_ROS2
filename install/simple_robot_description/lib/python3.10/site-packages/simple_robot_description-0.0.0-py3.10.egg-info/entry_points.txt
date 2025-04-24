@@ -1,0 +1,3 @@
+[console_scripts]
+joint_commander = simple_robot_description.joint_commander:main
+
